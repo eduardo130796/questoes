@@ -135,7 +135,10 @@ def main():
     params = st.experimental_get_query_params()
     materia = params.get("materia", ["Direito Administrativo"])[0]
     assunto = params.get("assunto", ["Mérito Administrativo"])[0]
-
+    if materia == 'da':
+        materia = "Direito Administrativo"
+    if assunto == 'ci':
+        materia = "Conceito Iniciais de Atos Administrativos"
     #assunto_selecionado = st.experimental_get_query_params().get("assunto", ["Conceitos Iniciais"])[0]
 
     # Exibir todas as questões cadastradas
