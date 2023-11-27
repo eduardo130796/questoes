@@ -12,6 +12,7 @@ config = {
 }
 
 #Função para obter todas as questões
+@st.cache
 def obter_todas_questoes(materia,assunto):
     try:
         cnx = mysql.connector.connect(**config)
