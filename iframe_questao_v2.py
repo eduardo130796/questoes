@@ -8,7 +8,7 @@ import pandas as pd
 config = {
     'user': 'admin',
     'password': 'Eduardo13*',
-    'host': 'institutoscheffelt.clazmf0mr7c4.sa-east-1.rds.amazonaws.com',
+    'host': 'institutoscheffelt.ckrs9teerzcf.sa-east-1.rds.amazonaws.com',
     'database': 'questoes',
     'raise_on_warnings': True
 }
